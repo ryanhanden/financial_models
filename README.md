@@ -2,7 +2,7 @@
 
 A set of self-directed equity valuation models built to investment-banking standards. Each model is a fully integrated three-statement operating model paired with a discounted-cash-flow (DCF) valuation, built from primary-source SEC filings.
 
-The goal of this portfolio is to demonstrate hands-on modeling fluency — statement linkage, projection logic, DCF construction, and the judgment behind the assumptions — rather than to publish price targets.
+The goal of this portfolio is to demonstrate hands-on modeling fluency - statement linkage, projection logic, DCF construction, and the judgment behind the assumptions - rather than to publish price targets.
 
 ---
 
