@@ -26,7 +26,7 @@ The purpose of this portfolio is to demonstrate hands-on modeling fluency: histo
 | Chevron | `chevron_model.xlsx` |
 | Salesforce | `salesforce_model.xlsx` |
 | Palantir | `palantir_model.xlsx` |
-| Restaurant Brands International | `restaurant_brands_model.xlsx` |
+| Restaurant Brands International | `QSR_model.xlsx` |
 ## What Each Model Includes
 
 Each workbook is designed to show the full modeling process from historical statements through valuation output:
