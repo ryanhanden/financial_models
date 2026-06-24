@@ -19,19 +19,19 @@ The goal of this portfolio is to demonstrate hands-on modeling fluency — state
 
 ---
 
-## Featured model — Airbnb, Inc. (ABNB)
+## Featured model - Airbnb, Inc. (ABNB)
 
 **File:** `Airbnb_3-Statement_Model_and_DCF.xlsx`
 
 A fully linked operating model with historicals tied to the FY2023 and FY2024 Forms 10-K and a five-year projection (FY2025–FY2029), feeding an unlevered DCF with a WACC build and a two-way sensitivity table.
 
 ### What it contains
-- **Drivers tab** — every assumption isolated as an input (revenue growth, cost ratios, tax rate, working-capital and capex intensity, DCF parameters), so the model is fully driver-driven.
-- **Income Statement, Balance Sheet, Cash Flow** — integrated and cross-linked. Net income, depreciation, capex, and ending cash wire across the three statements; the balance sheet balances to zero in every year.
-- **DCF** — unlevered free cash flow, CAPM-based cost of equity, WACC, Gordon-growth terminal value, enterprise-to-equity bridge, and a WACC × terminal-growth sensitivity grid.
+- **Drivers tab** - every assumption isolated as an input (revenue growth, cost ratios, tax rate, working-capital and capex intensity, DCF parameters), so the model is fully driver-driven.
+- **Income Statement, Balance Sheet, Cash Flow** - integrated and cross-linked. Net income, depreciation, capex, and ending cash wire across the three statements; the balance sheet balances to zero in every year.
+- **DCF** - unlevered free cash flow, CAPM-based cost of equity, WACC, Gordon-growth terminal value, enterprise-to-equity bridge, and a WACC × terminal-growth sensitivity grid.
 
 ### Approach and key analytical choices
-- **Asset-light marketplace.** Capex and D&A run well below 1% of revenue, so the valuation is driven by operating margin rather than reinvestment — reflected in the projection structure.
+- **Asset-light marketplace.** Capex and D&A run well below 1% of revenue, so the valuation is driven by operating margin rather than reinvestment - reflected in the projection structure.
 - **Deferred-revenue float.** Unearned fees scale with revenue, so growth is a *source* of cash rather than a use; the business runs on negative working capital.
 - **Customer-funds pass-through.** Funds receivable and funds payable are held equal and net to zero, rather than being treated as operating working capital.
 - **Net-cash position.** With cash and investments well above debt, net cash is added back in the equity bridge rather than subtracted.
