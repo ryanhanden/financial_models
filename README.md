@@ -1,88 +1,73 @@
-# Financial Modeling Portfolio
+# Commercial Real Estate Underwriting Portfolio
 
-A portfolio of self-directed public-company financial models built to demonstrate investment-banking, equity-research, and valuation modeling skills.
+Self-directed commercial real estate underwriting projects focused on multifamily acquisitions, value-add investing, debt structuring, and equity returns. These models are intended to demonstrate property-level underwriting, investment judgment, and Excel modeling skills.
 
-Each workbook includes EDGAR-tied historical financials, company-specific operating drivers, forecast assumptions, an integrated three-statement model, unlevered discounted cash flow valuation, WACC / terminal-growth sensitivity analysis, source mapping, and QA checks.
+## Models
 
-The purpose of this portfolio is to demonstrate hands-on modeling fluency: historical tie-out to primary-source filings, statement linkage, projection logic, DCF construction, and the judgment behind valuation assumptions. These models are for educational and demonstration purposes only and are not investment advice.
+### Briarwood Apartments — Livermore, CA
+**File:** `Briarwood_Apartments_Livermore_Underwriting.xlsx`
 
-## Completed Models
+A 10-year multifamily acquisition underwriting for a 64-unit Class B apartment property acquired for $19.75 million.
 
-| Company                              | Ticker | Model Type                  | Status   |
-| ------------------------------------ | -----: | --------------------------- | -------- |
-| Airbnb, Inc.                         |   ABNB | 3-Statement + Unlevered DCF | Complete |
-| Uber Technologies, Inc.              |   UBER | 3-Statement + Unlevered DCF | Complete |
-| Chevron Corporation                  |    CVX | 3-Statement + Unlevered DCF | Complete |
-| Salesforce, Inc.                     |    CRM | 3-Statement + Unlevered DCF | Complete |
-| Palantir Technologies Inc.           |   PLTR | 3-Statement + Unlevered DCF | Complete |
-| Restaurant Brands International Inc. |    QSR | 3-Statement + Unlevered DCF | Complete |
+**Model includes:**
+- Unit-level rent roll and 10-year operating pro forma
+- Vacancy, other income, operating expenses, and NOI build
+- 67% LTV senior loan at 5.58% fixed interest
+- Two years of interest-only payments followed by 30-year amortization
+- Levered and unlevered annual cash flows
+- Year-10 exit valuation
+- IRR, equity multiple, and cash-on-cash return analysis
+- Two-variable sensitivities for exit cap rate, rent growth, and purchase price
 
-## Model Files
+**Base-case outputs:**
+- Going-in cap rate: 5.85%
+- Exit cap rate: 6.75%
+- Levered IRR: 10.0%
+- Equity multiple: 2.3x
+- Average cash-on-cash return: 6.2%
 
-| Company | File |
-|---|---|
-| Airbnb | `airbnb_model.xlsx` |
-| Uber | `uber_model.xlsx` |
-| Chevron | `chevron_model.xlsx` |
-| Salesforce | `salesforce_model.xlsx` |
-| Palantir | `palantir_model.xlsx` |
-| Restaurant Brands International | `QSR_model.xlsx` |
-## What Each Model Includes
+---
 
-Each workbook is designed to show the full modeling process from historical statements through valuation output:
+### Parkview Apartments — Sacramento, CA
+**File:** `Parkview_Apartments_ValueAdd_Waterfall.xlsx`
 
-* Historical income statement, balance sheet, and cash flow statement actuals tied to SEC EDGAR filings
-* Company-specific operating drivers and segment detail
-* Forecast assumptions separated from historical actuals
-* Integrated three-statement forecast model
-* Working capital, capital expenditure, depreciation, cash flow, and balance-sheet checks
-* Unlevered free cash flow build
-* Discounted cash flow valuation
-* WACC and terminal-growth sensitivity analysis
-* Source map documenting filing sources
-* QA checks for historical tie-outs, balance-sheet balance, cash-flow bridge, and formula errors
+A five-year value-add multifamily underwriting for a 48-unit apartment acquisition with a renovation program and LP/GP equity waterfall.
 
-## Historical Actuals vs. Forecast Assumptions
+**Model includes:**
+- $8.4 million acquisition and $18,000 per-unit renovation program
+- Phased renovation and rent-growth assumptions
+- Interest-only bridge financing
+- Stabilized NOI and yield-on-cost analysis
+- Five-year levered property cash flows
+- Exit valuation and investment return analysis
+- LP/GP distribution waterfall
+- Return of capital, 8% preferred return, and 70/30 promote structure
 
-Historical actuals are sourced from company 10-K filings and treated as factual model inputs. Forecast years are assumption-driven and are clearly separated from historical hardcodes. The DCF output is not intended to represent a definitive price target; it reflects the valuation implied by the model’s stated assumptions.
+**Base-case outputs:**
+- Stabilized yield on cost: 7.6%
+- Exit cap rate: 6.5%
+- Levered deal IRR: 18.6%
+- Deal equity multiple: 2.2x
+- LP IRR: 16.6%
+- LP equity multiple: 2.0x
+- GP IRR: 32.3%
+- GP promote: approximately $530,000
 
-## Company-Specific Focus
+---
 
-### Airbnb, Inc. (ABNB)
+## Skills Demonstrated
 
-Airbnb is modeled as an asset-light travel marketplace, with emphasis on revenue growth, operating margin expansion, free cash flow generation, deferred revenue dynamics, customer-funds pass-through treatment, and net cash in the equity bridge.
+- Multifamily acquisition underwriting
+- Property-level cash flow modeling
+- Rent roll and NOI analysis
+- Debt sizing and amortization
+- LTV, DSCR, and debt-yield analysis
+- Levered and unlevered returns
+- IRR, equity multiple, and cash-on-cash analysis
+- Exit-cap and operating sensitivities
+- Value-add renovation underwriting
+- LP/GP waterfalls and promote economics
 
-### Uber Technologies, Inc. (UBER)
+## Disclaimer
 
-Uber is modeled using a segment-driven framework across Mobility, Delivery, and Freight. The model highlights revenue growth, margin expansion, free cash flow generation, and earnings-quality analysis related to large tax benefits.
-
-### Chevron Corporation (CVX)
-
-Chevron is modeled as an integrated energy company, with attention to upstream and downstream earnings, commodity-price sensitivity, capital intensity, dividends, buybacks, and free cash flow through the cycle.
-
-### Salesforce, Inc. (CRM)
-
-Salesforce is modeled as a mature enterprise software company, with emphasis on subscription revenue, professional services revenue, operating leverage, cash generation, deferred revenue, stock-based compensation, and valuation sensitivity.
-
-### Palantir Technologies Inc. (PLTR)
-
-Palantir is modeled as a high-growth software and analytics company, with emphasis on government versus commercial revenue, growth deceleration, margin expansion, stock-based compensation, cash conversion, and long-term DCF sensitivity.
-
-### Restaurant Brands International Inc. (QSR)
-
-Restaurant Brands is modeled as a global franchisor and restaurant holding company, with emphasis on system-wide sales, segment performance, royalty and franchise economics, debt, dividends, capital expenditures, and free cash flow.
-
-## Formatting Conventions
-
-The models generally follow standard financial modeling color conventions:
-
-* Blue = hardcoded historical actual or assumption
-* Black = formula / calculation
-* Green = linked value from another sheet
-* Red / check rows = QA or balance checks
-
-## Data Sources
-
-Primary data sources include SEC EDGAR filings, company Forms 10-K, company annual reports, and investor-relations materials. Source details are included inside each workbook.
-
-Built independently as part of a self-directed effort to develop investment-banking, valuation, and financial modeling skills.
+These models are self-directed educational projects created to demonstrate financial modeling and commercial real estate underwriting skills. They are not investment advice or offers to buy or sell securities or real estate.
