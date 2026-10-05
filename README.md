@@ -8,7 +8,7 @@ The portfolio is designed to demonstrate practical modeling ability across prope
 
 ## Commercial Real Estate Underwriting
 
-### Briarwood Apartments — Livermore, CA
+### Briarwood Apartments: Livermore, CA
 
 **File:** `Briarwood_Apartments_Livermore_Underwriting.xlsx`
 
@@ -39,7 +39,7 @@ The project was built to practice the fundamental acquisition underwriting proce
 
 ---
 
-### Parkview Apartments — Sacramento, CA
+### Parkview Apartments: Sacramento, CA
 
 **File:** `Parkview_Apartments_ValueAdd_Waterfall.xlsx`
 
@@ -81,9 +81,9 @@ The project was built to understand how value-add execution translates into prop
 
 ## Corporate Finance & Valuation
 
-### Airbnb, Inc. — Three-Statement Model & DCF
+### Airbnb, Inc.: Three-Statement Model and DCF
 
-**File:** `Airbnb_3-Statement_Model_and_DCF.xlsx`
+**File:** `Airbnb_Model.xlsx`
 
 Fully integrated three-statement operating model and unlevered discounted cash flow valuation built from SEC filings.
 
@@ -109,11 +109,11 @@ The model is structured so operating assumptions flow through the three statemen
 
 Additional self-directed modeling work includes:
 
-* Chevron Corporation — three-statement model and DCF
-* Uber Technologies — three-statement model, DCF, and earnings-quality analysis
-* Palantir Technologies — three-statement model and DCF
-* Salesforce — three-statement model and DCF
-* Restaurant Brands International — LBO and DCF analysis
+* Chevron Corporation: three-statement model and DCF (`Chevron_Model.xlsx`)
+* Uber Technologies: three-statement model, DCF, and earnings-quality analysis (`Uber_Model.xlsx`)
+* Palantir Technologies: three-statement model and DCF (`Palantir_Model.xlsx`)
+* Salesforce: three-statement model and DCF (`Salesforce_Model.xlsx`)
+* Restaurant Brands International: three-statement model and DCF (`QSR_Model.xlsx`); the LBO is in the separate [qsr-lbo](https://github.com/ryanhanden/qsr-lbo) repository
 
 Projects emphasize financial statement linkage, scenario analysis, leverage, valuation, and investment-return analysis.
 
@@ -146,7 +146,6 @@ Projects emphasize financial statement linkage, scenario analysis, leverage, val
 
 * Three-statement modeling
 * Discounted cash flow valuation
-* Comparable-company analysis
 * LBO modeling
 * Working-capital forecasting
 * Debt schedules
@@ -160,16 +159,17 @@ Projects emphasize financial statement linkage, scenario analysis, leverage, val
 * Python
 * SQL
 * SEC EDGAR
-* Bloomberg Terminal
+* Bloomberg (Bloomberg Market Concepts and Bloomberg Finance Fundamentals certifications)
 * PowerPoint
 
 ---
 
 ## About
 
-I am a UC Berkeley Economics graduate focused on commercial real estate investment, acquisitions, and development.
+I am a UC Berkeley Economics graduate focused on real estate investment and corporate finance.
+
+Related repositories: [qsr-lbo](https://github.com/ryanhanden/qsr-lbo) (leveraged buyout model) and [Secfilings-pipeline](https://github.com/ryanhanden/Secfilings-pipeline) (Python tool that pulls and cleans SEC financial data).
 
 I built these projects independently to develop the underwriting and modeling skills required to evaluate investments, understand capital structures, and make informed acquisition and development decisions.
 
 Models are provided for educational and portfolio demonstration purposes only and do not constitute investment advice.
-****
