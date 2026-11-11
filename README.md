@@ -10,7 +10,7 @@ Independent investment research and real estate underwriting by Ryan Anden (UC B
 | --- | --- | --- | --- |
 | **Hims & Hers Health (HIMS)** | **Buy**, $27 target vs. $19.15 (Nov 10, 2026), staged entry | Subscriber-based revenue build, operating forecast, DCF (11.8% WACC) with blended terminal values, bull/base/bear cases ($40 / $27 / $9), comps vs. Teladoc, Doximity, LifeMD | [Memo](equity-research/HIMS/HIMS_Investment_Memo.pdf) · [Model](equity-research/HIMS/HIMS_Valuation_Model.xlsx) |
 | **Mid-America Apartment Communities (MAA)** | **Buy**, $140 target vs. $118.86 (Nov 10, 2026), ~23% total return | REIT NAV at a 5.50% private-market cap rate, implied cap rate (6.27%), AFFO forecast and discount model, comps vs. Camden, UDR, Essex | [Memo](equity-research/MAA/MAA_Investment_Memo.pdf) · [Model](equity-research/MAA/MAA_NAV_DCF_Model.xlsx) |
-| **Restaurant Brands International (QSR)** | n/a | Leveraged buyout: $36.4B take-private, 6.0x leverage, cash sweep, 1.75x MOIC / 11.9% IRR | [qsr-lbo repository](https://github.com/ryanhanden/qsr-lbo) |
+| **Restaurant Brands International (QSR)** | Leveraged buyout | $36.4B take-private at 13.0x EBITDA, 6.0x leverage, 75% cash sweep, 1.75x MOIC / 11.9% IRR; buying at 11.0x lifts the IRR to ~19% | [Model](equity-research/QSR_LBO/QSR_LBO_Model.xlsx) · [Repository with write-up](https://github.com/ryanhanden/qsr-lbo) |
 
 **Three-statement models and DCFs (June 2026)** in [`equity-research/company-models`](equity-research/company-models): Chevron, Palantir, Uber (with a quality-of-earnings adjustment), Salesforce, Airbnb, and Restaurant Brands International. Valuations are as of June 2026.
 
